@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image1.jpg",
+      "PackagePath": "staticwebassets\\Files\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image2.jpg",
+      "PackagePath": "staticwebassets\\Files\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image3.jpg",
+      "PackagePath": "staticwebassets\\Files\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image4.jpg",
+      "PackagePath": "staticwebassets\\Files\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image5.jpg",
+      "PackagePath": "staticwebassets\\Files\\image5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image6.jpg",
+      "PackagePath": "staticwebassets\\Files\\image6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\Files\\image7.jpg",
+      "PackagePath": "staticwebassets\\Files\\image7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\sasha\\2025\\15.09.2025\\Новая папка\\WebApplication_Store\\WebApplication_Store\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApplication_Store.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApplication_Store.props",
+      "PackagePath": "build\\WebApplication_Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication_Store.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication_Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication_Store.props",
+      "PackagePath": "buildTransitive\\WebApplication_Store.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
