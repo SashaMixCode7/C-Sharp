@@ -1,0 +1,156 @@
+﻿.imge {
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imge img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.info-block {
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+
+.tittle_prod {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.price_prod {
+    color: #258cfb;
+    margin-bottom: 5px;
+}
+
+.descrip_prod {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.btn_1 {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn_card:hover {
+    background-color: #FFA500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*количество в строке*/
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto;
+}
+
+.col-8 {
+    grid-column: span 8;
+}
+
+.col-4 {
+    grid-column: span 4;
+}
+
+
+#btn_card {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+/*Для принудительного расширения элементов с классами*/ 
+/*.col-8, .col-4 {
+    grid-column: span 12 !important;
+}*/
+
+/*Для оформления таблицы заказов в корзине покупок*/
+table#table_order {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+table#table_order td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.telegram-btn {                  /*Для кнопки отправки в телеграм*/
+    padding: 12px 24px;
+    border-radius: 20px;
+    background-color: #0088cc;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    border: none;
+}
+
+.telegram-btn:hover {
+    background-color: #007ab3;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+body {
+    background-color: #f0f0f0; /* Резервный цвет */
+    background-image: url('/Files/background.jpg');
+    background-size: cover;
+    background-position: left;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+  
+
+.cart-section {             /*Для корзины*/
+    position: sticky;
+    top: 20px;
+    height: 80vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.menu-logo { /*Для логотипа*/
+    float: left;
+    margin-left: 20px;
+    margin-top: -5px; /* Подняли логотип выше */
+    max-width: 120px; 
+}
+
+.menu-name { /*Название*/
+    overflow: hidden;
+    font-size: 75px; /* Увеличили размер шрифта */
+    line-height: 1.2;
+    color: LightPink !important;
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+.info-block {
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+    *zoom: 1;
+}
+
+    .info-block::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
